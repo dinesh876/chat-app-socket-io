@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "simple chat app",
+  "main": "server.js",
+  "scripts": {
+    "start":"node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node":"9.5.0"
+  },
+  "author": "Dinesh.A",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*"
+  }
+}
