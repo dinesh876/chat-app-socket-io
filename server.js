@@ -4,7 +4,7 @@ let app=express();
 let server=require('http').createServer(app);
 let io=require('socket.io').listen(server);
 const publicPath=path.join(__dirname+'/public');
-const port=process.enev.PORT ||3000;
+const port=process.env.PORT ||3000;
 console.log(publicPath);
 users=[]
 connections=[]
